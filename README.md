@@ -10,8 +10,8 @@ Kubernetes API Server提供了HTTP(S)接口，当集群内Pod发生变动后，�
 ```cpp
 #include "workflow/WFTaskFactory.h"
 #include "workflow/WFFacilities.h"
-#include "K8sServiceManager.hpp"
-#include "K8sServiceHandler.hpp"
+#include "k8s-service/K8sServiceManager.h"
+#include "k8s-service/K8sServiceHandler.h"
 
 WFFacilities::WaitGroup wg(1);
 
